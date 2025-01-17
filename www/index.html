@@ -75,11 +75,11 @@ function timeAgo(timestamp){
     const days=Math.floor(hours/24);
 
     if(days>0){
-        return '${days}日前';
+        return `${days}日前`;
     }else if(hours>0){
-        return '${hours}時間前';
+        return `${hours}時間前`;
     }else if(minutes>0){
-        return '${minutes}分前';
+        return `${minutes}分前`;
     }else{
         return 'たった今';
     }
